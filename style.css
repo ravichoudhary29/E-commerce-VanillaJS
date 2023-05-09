@@ -858,6 +858,10 @@ footer .copyright {
 
 /* Cart Page */
 
+#cart {
+    overflow-x: auto;
+}
+
 #cart table {
     width: 100%;
     border-collapse: collapse;
@@ -1196,5 +1200,18 @@ footer .copyright {
     #form-details form {
         width: 100%;
         margin-bottom: 30px;
+    }
+
+    /* Cart Page */
+    #cart-add {
+        flex-direction: column;
+    }
+
+    #cart-add #coupon {
+        width: 100%;
+    }
+    #subtotal {
+        width: 100%;
+        padding: 20px;
     }
 }
